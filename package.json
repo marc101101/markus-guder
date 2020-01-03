@@ -1,0 +1,28 @@
+{
+  "name": "markus-guder",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc101101/markus-guder.git"
+  },
+  "author": "Markus Guder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marc101101/markus-guder/issues"
+  },
+  "homepage": "https://github.com/marc101101/markus-guder#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "xterm": "^4.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
