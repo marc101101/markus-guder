@@ -1,192 +1,251 @@
 <!DOCTYPE html>
-<!-- saved from url=(0061)http://markus-guder.de.s3-website.eu-central-1.amazonaws.com/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><header>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+  <link rel="manifest" href="./icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <header>
     <script src="./index_files/jquery.min.js"></script>
     <script src="./index_files/typed.custom.js"></script>
 
     <link rel="stylesheet" href="./index_files/jquery-ui.css">
     <script src="./index_files/jquery-ui.min.js"></script>
 
-<style>
-body {
-  background: black;
-}
+    <style>
+      body {
+        background: black;
+      }
 
-a{
-  color: white;
-  text-decoration: none;
-}
+      a {
+        color: white;
+        text-decoration: none;
+      }
 
-a:hover{
-  color:blue;
-  text-decoration: underline;
-}
+      a:hover {
+        color: blue;
+        text-decoration: underline;
+      }
 
 
-.terminal-window {
-  text-align: left;
-  width: 100%;
-  min-height: 100vh;
-  border-radius: 0px;
-  margin: 0px;
-  position: relative;
-}
+      .terminal-window {
+        text-align: left;
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0px;
+        margin: 0px;
+        position: relative;
+      }
 
-.terminal-window section.terminal {
-  color: white;
-  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-  font-size: 11pt;
-  background: black;
-  padding: 10px;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  top: 30px;
-  bottom: 0;
-  overflow: auto;
-}
+      .terminal-window section.terminal {
+        color: white;
+        font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+        font-size: 11pt;
+        background: black;
+        padding: 10px;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        bottom: 0;
+        overflow: auto;
+      }
 
-.terminal-window section.terminal .typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
+      .terminal-window section.terminal .typed-cursor {
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+      }
 
-.terminal-data { display: none; }
-.terminal-window .gray { color: gray; }
-.terminal-window .green { color: green;}
-</style>
-</header>
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
 
-    <div class="terminal-window">
-        <section class="terminal">
-          <div class="history"></div>
-          $&nbsp;<span class="prompt"></span>
-          <span class="typed-cursor">|</span><span class="typed-cursor"></span><span class="typed-cursor"></span>
-          <span class="typed-cursor"></span>
-      
-        </section>
-      </div>
-      <!-- data -->
-      <div class="terminal-data introduction">
-        <p>Hi, my name is</p>
-        <h1>Markus Guder</h1>
-        <p>This is my introduction</p>
-        <span><span style="display:block;line-height:8px; font-size: 8px; font-weight:bold;white-space:pre;font-family: monospace;">
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(#(
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;(
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%((%&amp;&amp;%&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*,,,**,,/#%//&amp;@&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(%@&amp;@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(/*..,....,,,,..,*,%%(%/%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;*,,(,...................,.(/@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*,,..........................*(/%@@@@@@@@@@@@@@@@@@@@@@@@@@@(
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%(*,.,,,*****,,,,...............,%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(/*,,(*,,,**/*,*******,...........,/&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;(,//***//,,**/**,*,,**,............,#@@@@@@@@@@@@@@@@@@@@@@@@@&amp;
-@@@@@@@@@@@@@@@@@@@@@@&amp;@&amp;@@@@@@@@@@@*///(/*/##//*,,,**,,*,,,............,#@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@#/&amp;%&amp;@@@@@@@&amp;(///*((//**(*/,,,,,,,..,,...........,@@@@@@@@@@@@@@@@@@@@@@@@&amp;%
-@@@@@@@@@@@@@@@@@@&amp;@%@@#(*/##&amp;@@&amp;@@(/*(*//*,,.,,****,.,,,,*,*,...........%@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@&amp;&amp;#&amp;&amp;%(*//##&amp;%#&amp;&amp;@@(/*,,....,,,,,..,,,,,,...,,*..........#@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@///*%//@//##*/#(#%&amp;&amp;&amp;*..********,*****//*.., ...*,.....,*..&amp;@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@%#/%,,,*/*//(((&amp;&amp;&amp;/&amp;%/.,,.,.,...,**,,//((*......  .......*,,&amp;/*//(@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@%(%%*,**,*,#//@@%/*%,(/,(///,.,...,.....,*,..........,....*,,,,,,,***/(@@@@@@@@@@@&amp;%&amp;%*
-@@@@@@@@@@@@@@%%@&amp;%/((,((##(,(,.,(/.,..../*, .............,,,,,,.....*,,.,,,,,,,,,,/&amp;@@@@@@@@@@@%(@
-@@@@@@@@@@@@@%//##(/,,*,/#&amp;(@@(..,....../*,,,............,,,,,,,,..  .,*,**,,,.,..,,,/@@@@@@@#*,#&amp;(
-@@@@@@@@@@@@#*#%%,*..,&amp;/(%(/%@&amp;.*,,..../**,,,.,.    .....,,,,,,*,... ....,.......,..,*&amp;@@@@@@&amp;@@/,*
-@@@@@@@@@@@@@@/,####%&amp;&amp;**@%(%,(#.,,,...*,,,,,,,.,,,,.,.,,,,,,,,,,..,..,,..,....,....,,*(@@@@@@@@@//
-@@@@@@@@@@@@@@@@*,*#(@@(%@#,/@(/,.*//*,,,... ...,,,*,,,,,,,,,,,,,..,...,.,............,*%@@@@&amp;/**(*
-@@@@@@@@@@@@@@@@/(&amp;,*//&amp;@/@#/&amp;@##*&amp;(/***,,,,...,,,*****,,,,,,,,,,......,,.............,,/@#/,*.,(@/
-%@@@@@@@/@#*.,*,.*@@@@&amp;/#@@@@%@@%@@#/*,...........,,,,*,,,,,,,,,,...,,,. ..........,....,@%*,.,.*/,
-%@@@@(%%*.,......,(@@@&amp;,###@@@@%@@@&amp;/*...,,,..,,.....,,,,,,,,,,,.............. ..........#,..,... .
-,..%%#,.#(,,.,,....,*.,.&amp;*/,*,,.,,,/*............. ...,,,,,,,,,,..,,,.        .,.........,.,..  ...
-............. ..... ....*..,..,,,.,,/*..*,*,,,,,,,,..,,,,...,,....,,,..  .............. ...,(.,.,,.
-.  ... .  ..   ..................,..**,,*,......,,,..,,,,,........,,,......      ....   .,..,/*. ..
- .    ..            .....  ..........*.,*,,,,,,,,,..  ........  ..,,,*. ..  ..............,.....*..
-...    .            .....   .  .. ...*..,,,,,,,,,...  ......   ...,,,,,**.,*,..,,,,,,,,,,.........,
-                     .... . .. ...#*,,.............          .....,,...,,..,,,,,***,,,.............
-..., .  . .. .... .,/,,,.. ..   ..   ..        ....................,,,,,,*.......   ...
-...... ... ,.......,,,,,,,,/*/,,.......,,,,.           ................. ........,,,,*,,.....    ..
-,,,,.,,,,,*,,,,,,*****.,****(,........,,,,,,,. ,....................... .................,,,..   ..
-,,,,.,,,.,,,,,,,,,,,,,,***//,........,,,,,,,, ..,,,................... ....................,,,*..,*
-..,,,.,,**///////////(##((*,....  .,,,,,,,,,. ...,,,,,,.............   ............. .   ......,,((
-*****************/////////,..... ...,,,,,,,.......,.,,,............   ............    .      ..    
-,,,,,,,,,,************///,.....  ....,,,,,.. .... ................    .   .,....             ......
-,,,,,,,,,,,,,,,,,,,,**/(/.....    ....,,,... ..... .............              .          ..   .....
-,,,,,,,,,,,,,*//********,.....     .. .,........ ..  .........        ..........         .    .....
-.,****,,,,,,,,,****/((/,......        ........... . .  .....          .........                    
-,,,,,,,,,,,*/(//****,**.......        . .........   ..                .........                    
-,,,,,,,,,,,,,,,,,*,*****...            .........                      .........                    
-....,,.,,,,,,,,,,,,,******,,              ........                     .......                     
-.....,,,,,,,,,,,,,,,*,,,,*,,,,,.          ..... ..                     ..     .                    
-........,,,,,,,,,,,,,,,,,,,,,,,,,...  *.   ...                          .     .                    
-.........,,,,,,,,,,,,,,,,,,,,,,......*.    ..                           .                          
-..........,,,,,,,,,,,,,,,,,,,,.......  .   ..       ,.                   .                         
-..........,,.,,,,,,..,,,,,,,.......   .*.. ..        ..//.                                         
-</span></span>
+        50% {
+          opacity: 0;
+        }
 
-<br>
+        100% {
+          opacity: 1;
+        }
+      }
 
-<p>* github | <a href="https://github.com/marc101101" target="_blank">https://github.com/marc101101</a></p>
+      @-webkit-keyframes blink {
+        0% {
+          opacity: 1;
+        }
 
-<p>* twitter | <a href="https://twitter.com/markus_guder" target="_blank">https://twitter.com/markus_guder</a></p>
+        50% {
+          opacity: 0;
+        }
 
-<p>* linkedIn | <a href="https://www.linkedin.com/in/markus-guder-845862b0" target="_blank">https://www.linkedin.com/in/markus-guder-845862b0</a></p>
-<br><br>
-      </div>
+        100% {
+          opacity: 1;
+        }
+      }
 
-<script>
-$(function() {
-  var data = [
-  { 
-    action: 'type',
-    strings: ["cd introductions^400"],
-    output: '<br><br>',
-    postDelay: 1000
-  },
-  { 
-    action: 'type',
-    strings: ["chmod +x markus.guder.sh^400"],
-    output: '<br><br>',
-    postDelay: 1000
-  },
-  { 
-    action: 'type',
-    //clear: true,
-    strings: ['./markus.guder.sh^400'],
-    output: '<br>' + $('.introduction').html()
-  },
-  { 
-    action: 'type',
-    strings: ["thanks for visiting my website!"]
-  }
-  
-];
-  runScripts(data, 0);
-});
+      @-moz-keyframes blink {
+        0% {
+          opacity: 1;
+        }
 
-function runScripts(data, pos) {
-    var prompt = $('.prompt'),
+        50% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .terminal-data {
+        display: none;
+      }
+
+      .terminal-window .gray {
+        color: gray;
+      }
+
+      .terminal-window .green {
+        color: green;
+      }
+    </style>
+  </header>
+
+  <div class="terminal-window">
+    <section class="terminal">
+      <div class="history"></div>
+      $&nbsp;<span class="prompt"></span>
+      <span class="typed-cursor">|</span><span class="typed-cursor"></span><span class="typed-cursor"></span>
+      <span class="typed-cursor"></span>
+
+    </section>
+  </div>
+  <!-- data -->
+  <div class="terminal-data introduction">
+    <p>Hi, my name is</p>
+    <h1>Markus Guder</h1>
+    <p>This is my introduction</p>
+    <span><span
+        style="display:block;line-height:8px; font-size: 8px; font-weight:bold;white-space:pre;font-family: monospace;">
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(#(
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;(
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%((%&amp;&amp;%&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*,,,**,,/#%//&amp;@&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(%@&amp;@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(/*..,....,,,,..,*,%%(%/%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;*,,(,...................,.(/@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#*,,..........................*(/%@@@@@@@@@@@@@@@@@@@@@@@@@@@(
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%(*,.,,,*****,,,,...............,%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(/*,,(*,,,**/*,*******,...........,/&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;(,//***//,,**/**,*,,**,............,#@@@@@@@@@@@@@@@@@@@@@@@@@&amp;
+        @@@@@@@@@@@@@@@@@@@@@@&amp;@&amp;@@@@@@@@@@@*///(/*/##//*,,,**,,*,,,............,#@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@#/&amp;%&amp;@@@@@@@&amp;(///*((//**(*/,,,,,,,..,,...........,@@@@@@@@@@@@@@@@@@@@@@@@&amp;%
+        @@@@@@@@@@@@@@@@@@&amp;@%@@#(*/##&amp;@@&amp;@@(/*(*//*,,.,,****,.,,,,*,*,...........%@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@&amp;&amp;#&amp;&amp;%(*//##&amp;%#&amp;&amp;@@(/*,,....,,,,,..,,,,,,...,,*..........#@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@///*%//@//##*/#(#%&amp;&amp;&amp;*..********,*****//*.., ...*,.....,*..&amp;@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@%#/%,,,*/*//(((&amp;&amp;&amp;/&amp;%/.,,.,.,...,**,,//((*......
+        .......*,,&amp;/*//(@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@%(%%*,**,*,#//@@%/*%,(/,(///,.,...,.....,*,..........,....*,,,,,,,***/(@@@@@@@@@@@&amp;%&amp;%*
+        @@@@@@@@@@@@@@%%@&amp;%/((,((##(,(,.,(/.,..../*, .............,,,,,,.....*,,.,,,,,,,,,,/&amp;@@@@@@@@@@@%(@
+        @@@@@@@@@@@@@%//##(/,,*,/#&amp;(@@(..,....../*,,,............,,,,,,,,.. .,*,**,,,.,..,,,/@@@@@@@#*,#&amp;(
+        @@@@@@@@@@@@#*#%%,*..,&amp;/(%(/%@&amp;.*,,..../**,,,.,. .....,,,,,,*,... ....,.......,..,*&amp;@@@@@@&amp;@@/,*
+        @@@@@@@@@@@@@@/,####%&amp;&amp;**@%(%,(#.,,,...*,,,,,,,.,,,,.,.,,,,,,,,,,..,..,,..,....,....,,*(@@@@@@@@@//
+        @@@@@@@@@@@@@@@@*,*#(@@(%@#,/@(/,.*//*,,,... ...,,,*,,,,,,,,,,,,,..,...,.,............,*%@@@@&amp;/**(*
+        @@@@@@@@@@@@@@@@/(&amp;,*//&amp;@/@#/&amp;@##*&amp;(/***,,,,...,,,*****,,,,,,,,,,......,,.............,,/@#/,*.,(@/
+        %@@@@@@@/@#*.,*,.*@@@@&amp;/#@@@@%@@%@@#/*,...........,,,,*,,,,,,,,,,...,,,. ..........,....,@%*,.,.*/,
+        %@@@@(%%*.,......,(@@@&amp;,###@@@@%@@@&amp;/*...,,,..,,.....,,,,,,,,,,,.............. ..........#,..,... .
+        ,..%%#,.#(,,.,,....,*.,.&amp;*/,*,,.,,,/*............. ...,,,,,,,,,,..,,,. .,.........,.,.. ...
+        ............. ..... ....*..,..,,,.,,/*..*,*,,,,,,,,..,,,,...,,....,,,.. .............. ...,(.,.,,.
+        . ... . .. ..................,..**,,*,......,,,..,,,,,........,,,...... .... .,..,/*. ..
+        . .. ..... ..........*.,*,,,,,,,,,.. ........ ..,,,*. .. ..............,.....*..
+        ... . ..... . .. ...*..,,,,,,,,,... ...... ...,,,,,**.,*,..,,,,,,,,,,.........,
+        .... . .. ...#*,,............. .....,,...,,..,,,,,***,,,.............
+        ..., . . .. .... .,/,,,.. .. .. .. ....................,,,,,,*....... ...
+        ...... ... ,.......,,,,,,,,/*/,,.......,,,,. ................. ........,,,,*,,..... ..
+        ,,,,.,,,,,*,,,,,,*****.,****(,........,,,,,,,. ,....................... .................,,,.. ..
+        ,,,,.,,,.,,,,,,,,,,,,,,***//,........,,,,,,,, ..,,,................... ....................,,,*..,*
+        ..,,,.,,**///////////(##((*,.... .,,,,,,,,,. ...,,,,,,............. ............. . ......,,((
+        *****************/////////,..... ...,,,,,,,.......,.,,,............ ............ . ..
+        ,,,,,,,,,,************///,..... ....,,,,,.. .... ................ . .,.... ......
+        ,,,,,,,,,,,,,,,,,,,,**/(/..... ....,,,... ..... ............. . .. .....
+        ,,,,,,,,,,,,,*//********,..... .. .,........ .. ......... .......... . .....
+        .,****,,,,,,,,,****/((/,...... ........... . . ..... .........
+        ,,,,,,,,,,,*/(//****,**....... . ......... .. .........
+        ,,,,,,,,,,,,,,,,,*,*****... ......... .........
+        ....,,.,,,,,,,,,,,,,******,, ........ .......
+        .....,,,,,,,,,,,,,,,*,,,,*,,,,,. ..... .. .. .
+        ........,,,,,,,,,,,,,,,,,,,,,,,,,... *. ... . .
+        .........,,,,,,,,,,,,,,,,,,,,,,......*. .. .
+        ..........,,,,,,,,,,,,,,,,,,,,....... . .. ,. .
+        ..........,,.,,,,,,..,,,,,,,....... .*.. .. ..//.
+      </span></span>
+
+    <br>
+
+    <p>* github | <a href="https://github.com/marc101101" target="_blank">https://github.com/marc101101</a></p>
+
+    <p>* twitter | <a href="https://twitter.com/markus_guder" target="_blank">https://twitter.com/markus_guder</a></p>
+
+    <p>* linkedIn | <a href="https://www.linkedin.com/in/markus-guder-845862b0"
+        target="_blank">https://www.linkedin.com/in/markus-guder-845862b0</a></p>
+    <br><br>
+  </div>
+
+  <script>
+    $(function () {
+      var data = [{
+          action: 'type',
+          strings: ["cd introductions^400"],
+          output: '<br><br>',
+          postDelay: 1000
+        },
+        {
+          action: 'type',
+          strings: ["chmod +x markus.guder.sh^400"],
+          output: '<br><br>',
+          postDelay: 1000
+        },
+        {
+          action: 'type',
+          //clear: true,
+          strings: ['./markus.guder.sh^400'],
+          output: '<br>' + $('.introduction').html()
+        },
+        {
+          action: 'type',
+          strings: ["thanks for visiting my website!"]
+        }
+
+      ];
+      runScripts(data, 0);
+    });
+
+    function runScripts(data, pos) {
+      var prompt = $('.prompt'),
         script = data[pos];
-    if(script.clear === true) {
-      $('.history').html(''); 
-    }
-    switch(script.action) {
+      if (script.clear === true) {
+        $('.history').html('');
+      }
+      switch (script.action) {
         case 'type':
           // cleanup for next execution
           prompt.removeData();
@@ -194,11 +253,11 @@ function runScripts(data, pos) {
           prompt.typed({
             strings: script.strings,
             typeSpeed: 30,
-            callback: function() {
+            callback: function () {
               var history = $('.history').html();
               history = history ? [history] : [];
               history.push('$ ' + prompt.text());
-              if(script.output) {
+              if (script.output) {
                 history.push(script.output);
                 prompt.html('');
                 $('.history').html(history.join(''));
@@ -207,8 +266,8 @@ function runScripts(data, pos) {
               $('section.terminal').scrollTop($('section.terminal').height());
               // Run next script
               pos++;
-              if(pos < data.length) {
-                setTimeout(function() {
+              if (pos < data.length) {
+                setTimeout(function () {
                   runScripts(data, pos);
                 }, script.postDelay || 1000);
               }
@@ -218,6 +277,9 @@ function runScripts(data, pos) {
         case 'view':
 
           break;
+      }
     }
-}
-</script></body></html>
+  </script>
+</body>
+
+</html>
